@@ -1,7 +1,7 @@
 Write a function that returns `true`if all characters in a string are identical and `false`otherwise.
 
+### Examples
 
-### Examples ###
     isIdentical("aaaaaa") ➞ true
 
     isIdentical("aabaaa") ➞ false
@@ -10,6 +10,6 @@ Write a function that returns `true`if all characters in a string are identical 
 
     isIdentical("kk") ➞ true
 
+### Notes
 
-### Notes ###
 N/A
