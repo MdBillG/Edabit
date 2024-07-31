@@ -1,5 +1,7 @@
 function isInRange(num, range) {
-  // Your code here.
+
+  return num >= range.min && num <= range.max
+
 }
 
 module.exports = isInRange;
