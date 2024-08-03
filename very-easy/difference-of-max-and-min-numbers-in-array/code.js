@@ -1,5 +1,7 @@
 function differenceMaxMin(arr) {
-  // Your code here.
+  const min = Math.min(...arr)
+  const max = Math.max(...arr)
+  return max - min
 }
 
 module.exports = differenceMaxMin;
