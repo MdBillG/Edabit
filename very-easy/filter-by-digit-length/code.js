@@ -1,5 +1,9 @@
 function filterDigitLength(arr, num) {
-  // Your code here.
+
+  return arr.filter(n => {
+    return Math.abs(n).toString().length === num
+  })
+
 }
 
 module.exports = filterDigitLength;
