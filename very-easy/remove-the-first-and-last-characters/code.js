@@ -1,5 +1,6 @@
 function removeFirstLast(str) {
-  // Your code here.
+  // Your code here.\
+
 }
 
 module.exports = removeFirstLast;
