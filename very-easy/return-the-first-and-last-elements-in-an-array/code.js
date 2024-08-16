@@ -1,5 +1,6 @@
 function firstLast(arr) {
-  // Your code here.
+
+  return [arr[0], arr[arr.length - 1]];
 }
 
 module.exports = firstLast;
