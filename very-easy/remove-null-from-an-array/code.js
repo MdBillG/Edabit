@@ -1,6 +1,6 @@
 function removeNull(arr) {
   // Your code here.
-
-} ds
+  return arr.filter(item => item !== null && item !== undefined);
+}
 
 module.exports = removeNull;
