@@ -1,5 +1,5 @@
 function addition(num) {
-  // Your code here.
+  return num + 1
 }
 
 module.exports = addition;
