@@ -1,5 +1,5 @@
 function divisible(arr) {
-  // Your code here.
+
 
 }
 
