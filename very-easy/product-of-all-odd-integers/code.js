@@ -1,5 +1,6 @@
 function oddProduct(arr) {
-  // Your code here.
+  const even = arr.filter(x => x % 2 !== 0)
+  return even.reduce((a, b) => a * b)
 
 }
 
