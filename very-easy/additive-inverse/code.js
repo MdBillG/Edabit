@@ -1,7 +1,7 @@
 function additiveInverse(arr) {
   // Your code here.
-return arr.map(x=>-x)
 
+return arr.map((num) => num * -1);
 
 }
 
