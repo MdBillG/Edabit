@@ -1,5 +1,6 @@
 function ctoa(c) {
   // Your code here.c
+  return c.charCodeAt(0);
 
 
 }
