@@ -1,5 +1,6 @@
 function Go(num) {
   // Your code here.
+return '-'.repeat(num)
 
 }
 
