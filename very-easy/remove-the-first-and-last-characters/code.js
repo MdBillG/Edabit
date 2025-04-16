@@ -4,6 +4,7 @@ function removeFirstLast(str) {
     return str;
   return str.slice(1, -1);
 
+
 }
 
 

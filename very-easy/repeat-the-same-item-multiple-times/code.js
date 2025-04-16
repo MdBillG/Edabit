@@ -1,6 +1,14 @@
 function repeat(item, times) {
 
-    return item.repeat(times).split(',');
+    let repeatedArray = [];
+    for (let i = 0; i < times; i++) {
+        repeatedArray.push(item);
+    }
+
+
+    return repeatedArray;
+
+    // return item.repeat(times).split(',');
 
 
 }
