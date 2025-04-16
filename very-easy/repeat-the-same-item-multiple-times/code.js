@@ -1,5 +1,7 @@
 function repeat(item, times) {
 
+    return item.repeat(times).split(',');
+
 
 }
 
