@@ -1,8 +1,8 @@
 function percentDiff(num1, num2) {
-  // Your code here.
-
-
-  
+  // Formula: |a - b| / ((a + b) / 2) * 100
+  const diff = Math.abs(num1 - num2);
+  const avg = (num1 + num2) / 2;
+  return parseFloat(((diff / avg) * 100).toFixed(1));
 }
 
 module.exports = percentDiff;
